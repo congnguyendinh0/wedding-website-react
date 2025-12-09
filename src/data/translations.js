@@ -13,7 +13,9 @@ export const translations = {
             celebration: 'Feier',
             time: 'Uhrzeit',
             location: 'Ort',
-            address: 'Adresse'
+            address: 'Adresse',
+            ceremony_time: '11:00 Uhr',
+            celebration_time: '13:00 Uhr'
         },
         story: {
             title: 'Unsere Geschichte',
@@ -76,7 +78,9 @@ export const translations = {
             celebration: 'Celebration',
             time: 'Time',
             location: 'Location',
-            address: 'Address'
+            address: 'Address',
+            ceremony_time: '11:00 AM',
+            celebration_time: '01:00 PM'
         },
         story: {
             title: 'Our Story',
@@ -139,7 +143,9 @@ export const translations = {
             celebration: 'Tiệc Cưới',
             time: 'Thời gian',
             location: 'Địa điểm',
-            address: 'Địa chỉ'
+            address: 'Địa chỉ',
+            ceremony_time: '11:00',
+            celebration_time: '13:00'
         },
         story: {
             title: 'Câu Chuyện Của Chúng Mình',

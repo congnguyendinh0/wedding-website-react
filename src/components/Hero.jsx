@@ -15,7 +15,7 @@ const Hero = () => {
                 <div className="details-grid" style={{ marginTop: '40px', marginBottom: '40px' }}>
                     <div className="detail-card">
                         <h3 style={{ color: 'var(--accent-green)' }}>{t.hero.ceremony}</h3>
-                        <p className="time" style={{ color: 'var(--text-color)' }}>11:00 AM</p>
+                        <p className="time" style={{ color: 'var(--text-color)' }}>{t.hero.ceremony_time}</p>
                         <p className="location" style={{ color: 'var(--text-color)' }}>Standesamt Hohen Neuendorf</p>
                         <p className="address" style={{ color: 'var(--text-color)' }}>Oranienburger Str. 2, 16540 Hohen Neuendorf</p>
                     </div>
@@ -24,7 +24,7 @@ const Hero = () => {
 
                     <div className="detail-card">
                         <h3 style={{ color: 'var(--accent-green)' }}>{t.hero.celebration}</h3>
-                        <p className="cuisine" style={{ color: 'var(--text-color)' }}>01:00 PM</p>
+                        <p className="cuisine" style={{ color: 'var(--text-color)' }}>{t.hero.celebration_time}</p>
                         <p className="location" style={{ color: 'var(--text-color)' }}>Filo d'Olio Glienicke</p>
                         <p className="address" style={{ color: 'var(--text-color)' }}>Hauptstraße 19, 16548 Glienicke/Nordbahn</p>
                     </div>
