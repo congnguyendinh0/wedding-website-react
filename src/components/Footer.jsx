@@ -5,7 +5,7 @@ const Footer = () => {
     const { t } = useLanguage();
     return (
         <footer>
-            <p className="script-font">{t.footer.text}</p>
+            <p style={{ fontFamily: 'var(--font-heading)', fontSize: '2rem', color: 'var(--accent-gold)' }}>{t.footer.text}</p>
         </footer>
     );
 };

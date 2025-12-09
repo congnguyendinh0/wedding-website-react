@@ -11,7 +11,7 @@ const FAQ = () => {
             content: (
                 <>
                     <p><strong>{t.hero.location}:</strong> Standesamt Hohen Neuendorf (Town Hall)</p>
-                    <p><strong>{t.hero.address}:</strong> Oranienburger Straße 2, 16540 Hohen Neuendorf</p>
+                    <p><strong>{t.hero.address}:</strong> Oranienburger Str. 2, 16540 Hohen Neuendorf</p>
 
                     <div className="faq-subsection">
                         <h4>{t.faq.ceremony.transport_title}</h4>
@@ -28,6 +28,16 @@ const FAQ = () => {
                             <li dangerouslySetInnerHTML={{ __html: t.faq.ceremony.parking_text_2 }}></li>
                         </ul>
                         <p className="note" dangerouslySetInnerHTML={{ __html: t.faq.ceremony.note }}></p>
+                    </div>
+                    <div style={{ marginTop: '20px' }}>
+                        <iframe
+                            width="100%"
+                            height="450px"
+                            frameBorder="0"
+                            style={{ border: 0 }}
+                            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB2NIWI3Tv9iDPrlnowr_0ZqZWoAQydKJU&q=Stadtverwaltung%20Hohen%20Neuendorf%2C%20Oranienburger%20Stra%C3%9Fe%2C%20Hohen%20Neuendorf%2C%20Germany&maptype=roadmap"
+                            allowFullScreen
+                        ></iframe>
                     </div>
                 </>
             )
@@ -57,6 +67,16 @@ const FAQ = () => {
                     <div className="faq-subsection">
                         <h4>{t.faq.celebration.parking_title}</h4>
                         <p>{t.faq.celebration.parking_text}</p>
+                    </div>
+                    <div style={{ marginTop: '20px' }}>
+                        <iframe
+                            width="100%"
+                            height="450px"
+                            frameBorder="0"
+                            style={{ border: 0 }}
+                            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB2NIWI3Tv9iDPrlnowr_0ZqZWoAQydKJU&q=Ristorante%20Filo%20d'Olio%20glienicke&maptype=roadmap"
+                            allowFullScreen
+                        ></iframe>
                     </div>
                 </>
             )

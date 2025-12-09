@@ -17,7 +17,7 @@ const Hero = () => {
                         <h3 style={{ color: 'var(--accent-green)' }}>{t.hero.ceremony}</h3>
                         <p className="time" style={{ color: 'var(--text-color)' }}>11:00 AM</p>
                         <p className="location" style={{ color: 'var(--text-color)' }}>Standesamt Hohen Neuendorf</p>
-                        <p className="address" style={{ color: 'var(--text-color)' }}>Rathausstraße 1, 16540 Hohen Neuendorf</p>
+                        <p className="address" style={{ color: 'var(--text-color)' }}>Oranienburger Str. 2, 16540 Hohen Neuendorf</p>
                     </div>
 
                     <div className="divider-vertical"></div>

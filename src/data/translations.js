@@ -17,10 +17,10 @@ export const translations = {
         },
         story: {
             title: 'Unsere Geschichte',
-            p1: 'Unsere Geschichte begann mit einer Freundschaft, die die Zeit überdauerte. Wir trafen uns erstmals 2018 beim <strong>Hoi Sinh Vien Berlin</strong>, zwei Wege, die sich in einer geschäftigen Stadt kreuzten. Obwohl das Leben uns in verschiedene Richtungen führte und wir uns eine Weile aus den Augen verloren, hatte das Schicksal andere Pläne.',
-            p2: 'Im Jahr 2023 brachten uns gemeinsame Freunde wieder zusammen. Es dauerte nicht lange, bis der Funke übersprang. Am <strong>11. Juli 2023</strong> wurden wir offiziell ein Paar, und wir erkannten schnell, dass wir etwas ganz Besonderes aneinander gefunden hatten.',
-            p3: 'Unsere Liebe vertiefte sich mit jedem gemeinsamen Abenteuer. Im <strong>Februar 2024</strong> machten wir unsere erste gemeinsame Reise nach Vietnam, begleitet von unseren Familien – eine Reise voller Lachen, Erinnerungen und einem wunderschönen Pre-Wedding-Fotoshooting, das unser Glück festhielt.',
-            p4: 'Am <strong>28. November 2025</strong> verlobten wir uns und markierten damit den Beginn unserer Ewigkeit. Wir freuen uns so sehr, dieses nächste Kapitel mit euch zu feiern.'
+            p1: 'Alles begann 2017 beim vietnamesischen Studentenverein in Berlin. Wir redeten kurz, fanden uns sympathisch und dachten nicht im Traum daran, dass wir Jahre später heiraten würden.',
+            p2: 'Erst 2023 brachte uns das Leben zueinander zurück und plötzlich passte alles. Im Sommer 2023 wurden wir ein Paar und stellten fest, dass unser Humor perfekt zusammenpasst und wir einfach füreinander bestimmt sind. Cong zeigte direkt, was für ihn Bare Minimum ist. Für andere wäre das schon längst Princess Treatment. Doch für ihn gehört es einfach dazu, Hang mitten in der Nacht Essen zu bringen und sie um sechs Uhr morgens 2 Stunden lang zur Arbeit zu fahren. Hang wusste spätestens da, dass dieser Mann es mit ihr ernst meint. Oder dass er wirklich gern Auto fährt.',
+            p3: 'Seitdem haben wir gemeinsam Erfolge gefeiert, schwierige Momente überstanden und die Welt bereist. 2025 kam der Antrag, 2026 sagen wir Ja. Und manchmal können wir selbst kaum glauben, dass alles mit einem unscheinbaren „Hallo“ angefangen hat.',
+            p4: ''
         },
         gallery: {
             title: 'Unsere Momente'
@@ -41,7 +41,7 @@ export const translations = {
                 title: 'Die Feier',
                 transport_title: '🚌 Anreise von der Zeremonie:',
                 transport_car: '<strong>Mit dem Auto (Empfohlen):</strong> Die Fahrt dauert ca. 15 Minuten (ca. 8km über B96).',
-                transport_public: '<strong>Mit öffentlichen Verkehrsmitteln:</strong>',
+                transport_public: 'Mit öffentlichen Verkehrsmitteln:',
                 transport_step_1: 'Nehmen Sie die S1 (Richtung Wannsee) von S Hohen Neuendorf bis S Hermsdorf (2 Stationen).',
                 transport_step_2: 'Umsteigen in Bus 806 (Richtung Schildow/Mühlenbeck).',
                 transport_step_3: 'Aussteigen bei Glienicke/Nordbahn, Kirche. Das Restaurant ist nur einen kurzen Fußweg entfernt.',
@@ -80,10 +80,10 @@ export const translations = {
         },
         story: {
             title: 'Our Story',
-            p1: 'Our story began with a friendship that stood the test of time. We first met in 2018 at <strong>Hoi Sinh Vien Berlin</strong>, two paths crossing in a bustling city. Though life took us in different directions and we lost touch for a while, fate had other plans.',
-            p2: 'In 2023, mutual friends brought us back into each other\'s orbit. It didn\'t take long for the spark to ignite. On <strong>July 11, 2023</strong>, we officially became a couple, and we quickly realized we had found something truly special in one another.',
-            p3: 'Our love deepened with every shared adventure. In <strong>February 2024</strong>, we took our first trip to Vietnam together, accompanied by our families—a journey filled with laughter, memories, and a beautiful pre-wedding photoshoot that captured our happiness.',
-            p4: 'On <strong>November 28, 2025</strong>, we got engaged, marking the beginning of our forever. We are so excited to celebrate this next chapter with you.'
+            p1: 'It all began in 2017 at the Vietnamese Student Association in Berlin. We spoke briefly, found each other likeable, and never dreamed that years later we would be getting married.',
+            p2: 'It wasn\'t until 2023 that life brought us back together, and suddenly everything just clicked. In the summer of 2023, we became a couple and realized our humor matched perfectly—we were simply meant to be. Cong immediately showed what he considers the "bare minimum." For others, it would have been "princess treatment" long ago. But for him, bringing Hang food in the middle of the night or driving her two hours to work at six in the morning is just part of it. That’s when Hang knew this man was serious about her. Or maybe he just really likes driving.',
+            p3: 'Since then, we’ve celebrated successes together, overcome difficult moments, and traveled the world. In 2025 came the proposal, and in 2026, we say "I do." And sometimes we can hardly believe that it all started with an inconspicuous "Hello."',
+            p4: ''
         },
         gallery: {
             title: 'Our Moments'

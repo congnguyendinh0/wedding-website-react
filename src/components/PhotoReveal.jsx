@@ -19,7 +19,7 @@ const PhotoReveal = ({ isVisible }) => {
                     }}
                 />
                 <div className="photo-caption">
-                    <h2>We are getting married!</h2>
+                    <h2>WE ARE GETTING MARRIED!</h2>
                 </div>
             </div>
         </div>
