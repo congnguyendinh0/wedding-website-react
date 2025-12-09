@@ -9,7 +9,7 @@ const Hero = () => {
         <section id="hero">
             <div className="hero-content" style={{ opacity: 1, visibility: 'visible' }}>
                 <p className="intro-text" style={{ color: 'var(--text-color)', opacity: 1 }}>{t.hero.intro}</p>
-                <h1 className="couple-names" style={{ color: 'var(--accent-green)', opacity: 1 }}>DINH CONG<br /> & <br /> THU HANG</h1>
+                <h1 className="couple-names" style={{ color: 'var(--accent-green)', opacity: 1 }}>DINH CONG<br /> <span className="ampersand">&</span> <br /> THU HANG</h1>
                 <p className="date" style={{ color: 'var(--accent-gold)', opacity: 1 }}>{t.hero.date}</p>
 
                 <div className="details-grid" style={{ marginTop: '40px', marginBottom: '40px' }}>

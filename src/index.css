@@ -27,6 +27,12 @@
   font-style: italic;
 }
 
+.ampersand {
+  font-family: 'DA', serif;
+  font-weight: normal;
+  font-size: 1.2em;
+}
+
 :root {
   --bg-color: #FDFBF7;
   /* Warm White */
