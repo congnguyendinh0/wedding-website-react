@@ -3,7 +3,7 @@ import Envelope from './Envelope';
 import PhotoReveal from './PhotoReveal';
 import { useLanguage } from '../context/LanguageContext';
 
-const InvitationCard = ({ onComplete }) => {
+const InvitationCard = ({ onComplete, onOpen }) => {
     const [isOpen, setIsOpen] = useState(false);
     const [showPhoto, setShowPhoto] = useState(false);
     const { t } = useLanguage();
@@ -11,6 +11,7 @@ const InvitationCard = ({ onComplete }) => {
     const handleOpen = () => {
         if (!isOpen) {
             setIsOpen(true);
+            if (onOpen) onOpen();
             // Delay showing the photo until the envelope opens (slower animation)
             setTimeout(() => {
                 setShowPhoto(true);

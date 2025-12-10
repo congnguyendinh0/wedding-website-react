@@ -6,10 +6,12 @@ import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import Gallery from './components/Gallery';
 import FAQ from './components/FAQ';
+import AudioPlayer from './components/AudioPlayer';
 import { LanguageProvider } from './context/LanguageContext';
 
 function App() {
   const [isContentVisible, setIsContentVisible] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(false);
 
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
@@ -30,9 +32,14 @@ function App() {
   return (
     <LanguageProvider>
       <div>
+        <AudioPlayer isPlaying={isPlaying} onToggle={() => setIsPlaying(!isPlaying)} />
+
         {/* Envelope Opener Section */}
         <div id="envelope-overlay" style={{ opacity: isContentVisible ? 0 : 1, visibility: isContentVisible ? 'hidden' : 'visible', transition: 'opacity 2.5s ease-out, visibility 2.5s 2.5s', pointerEvents: isContentVisible ? 'none' : 'auto' }}>
-          <InvitationCard onComplete={() => setIsContentVisible(true)} />
+          <InvitationCard
+            onComplete={() => setIsContentVisible(true)}
+            onOpen={() => setIsPlaying(true)}
+          />
         </div>
 
         <Navbar />
