@@ -32,7 +32,7 @@ export const translations = {
             ceremony: {
                 title: 'Die Zeremonie',
                 transport_title: '🚆 Anreise mit öffentlichen Verkehrsmitteln:',
-                transport_text_1: 'Nehmen Sie die S-Bahn (S1 oder S8) bis S Hohen Neuendorf.',
+                transport_text_1: 'Nimmt die die S-Bahn (S1 oder S8) bis S Hohen Neuendorf.',
                 transport_text_2: 'Vom Bahnhof sind es ca. 5 Minuten Fußweg (ca. 400m) bis zum Rathaus.',
                 parking_title: '🚗 Parkmöglichkeiten:',
                 parking_text_1: '<strong>Rathaus:</strong> Es gibt begrenzte Parkmöglichkeiten direkt am Rathaus.',
@@ -108,7 +108,7 @@ export const translations = {
                 title: 'The Celebration',
                 transport_title: '🚌 How to get there from the Ceremony:',
                 transport_car: '<strong>By Car (Recommended):</strong> The drive takes about 15 minutes (approx. 8km via B96).',
-                transport_public: '<strong>By Public Transport:</strong>',
+                transport_public: 'By Public Transport:',
                 transport_step_1: 'Take the S1 (direction Wannsee) from S Hohen Neuendorf to S Hermsdorf (2 stops).',
                 transport_step_2: 'Change to Bus 806 (direction Schildow/Mühlenbeck).',
                 transport_step_3: 'Get off at Glienicke/Nordbahn, Kirche. The restaurant is a short walk from there.',

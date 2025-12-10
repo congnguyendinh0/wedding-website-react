@@ -26,7 +26,7 @@ const Hero = () => {
                         <h3 style={{ color: 'var(--accent-green)' }}>{t.hero.celebration}</h3>
                         <p className="cuisine" style={{ color: 'var(--text-color)' }}>{t.hero.celebration_time}</p>
                         <p className="location" style={{ color: 'var(--text-color)' }}>Filo d'Olio Glienicke</p>
-                        <p className="address" style={{ color: 'var(--text-color)' }}>Hauptstraße 19, 16548 Glienicke/Nordbahn</p>
+                        <p className="address" style={{ color: 'var(--text-color)' }}>Karl-Liebknecht-Straße 55, 16548 Glienicke/Nordbahn</p>
                     </div>
                 </div>
 
