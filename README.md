@@ -1,16 +1,79 @@
-# React + Vite
+# Cong & Thu Hang - Wedding Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, elegant, and interactive wedding website built with **React**, **Vite**, and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Interactive Envelope Opener**: A beautiful 3D-style envelope animation that opens to reveal the invitation.
+- **Photo Reveal**: A smooth transition from the invitation to a couple photo.
+- **Background Audio**: Ambient background music that starts upon interaction, with a floating toggle control.
+- **Multi-Language Support**: Fully localized content in **German (DE)**, **English (EN)**, and **Vietnamese (VI)**.
+- **Responsive Design**: Optimized for mobile, tablet, and desktop devices.
+- **Google Maps Integration**: Embedded maps for the Ceremony and Celebration locations.
+- **Image Optimization**: Optimized assets for fast loading times.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Framework**: [React](https://react.dev/)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/) & Custom CSS
+- **Icons**: SVG Icons
+- **Fonts**: Custom fonts (DA, Open Sans Condensed)
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm
+
+### Installation
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/congnguyendinh0/wedding-website-react.git
+    cd wedding-website-react
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+3.  **Start the development server:**
+    ```bash
+    npm run dev
+    ```
+    The site will be available at `http://localhost:5173`.
+
+### Building for Production
+
+To create a production-ready build:
+
+```bash
+npm run build
+```
+
+## 📂 Project Structure
+
+```
+src/
+├── assets/          # Images and static assets
+├── components/      # Reusable React components (Hero, FAQ, Envelope, etc.)
+├── context/         # React Context (LanguageContext)
+├── data/            # Translation data (translations.js)
+├── App.jsx          # Main application component
+├── index.css        # Global styles and Tailwind imports
+└── main.jsx         # Entry point
+public/              # Public assets (fonts, audio, favicon)
+```
+
+## 🎨 Customization
+
+- **Translations**: Update `src/data/translations.js` to modify text for all languages.
+- **Images**: Replace images in `src/assets/` and update references in components.
+- **Audio**: Replace `public/audio.mp3` with your desired track.
+
+## 📄 License
+
+This project is for personal use.
